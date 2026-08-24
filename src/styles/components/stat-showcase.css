@@ -1,7 +1,7 @@
 .stat-showcase_component {
   --stat-showcase-orange: #ff5800;
   --stat-showcase-orange-accent: #ff7d3a;
-  --stat-showcase-teal: #07565a;
+  --stat-showcase-purple: #6c3ce0;
   --stat-showcase-mint: #8ed9c0;
   --stat-showcase-light: #fff;
   --stat-showcase-dark: #111;
@@ -76,7 +76,7 @@
   align-items: flex-start;
   justify-content: center;
   gap: 0.65rem;
-  background-color: var(--stat-showcase-teal);
+  background-color: var(--stat-showcase-purple);
   color: var(--stat-showcase-light);
 }
 
