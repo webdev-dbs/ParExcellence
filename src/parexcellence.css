@@ -1,0 +1,6 @@
+/*
+ * ParExcellence CSS entry point.
+ * Import every component stylesheet here so it is included in the bundle.
+ */
+@import "./styles/base.css";
+@import "./styles/components/index.css";

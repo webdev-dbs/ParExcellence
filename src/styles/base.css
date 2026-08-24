@@ -1,0 +1,10 @@
+/* Shared project-level styles and custom properties belong in this file. */
+:root {
+  --pe-page-inline-padding: clamp(1rem, 4vw, 4rem);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
