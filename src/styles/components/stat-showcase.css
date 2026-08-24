@@ -5,6 +5,8 @@
   --stat-showcase-mint: #8ed9c0;
   --stat-showcase-light: #fff;
   --stat-showcase-dark: #111;
+  --stat-showcase-secondary-left-padding: 2.75rem;
+  --stat-showcase-secondary-bottom-padding: 3.575rem;
   display: grid;
   width: 100%;
   min-height: clamp(23rem, 46vw, 36rem);
@@ -71,10 +73,11 @@
 
 .stat-showcase_secondary-top {
   display: flex;
-  padding: clamp(2rem, 4vw, 3.5rem) clamp(1.5rem, 3vw, 2.5rem);
+  padding: 2rem 2.5rem var(--stat-showcase-secondary-bottom-padding)
+    var(--stat-showcase-secondary-left-padding);
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 0.65rem;
   background-color: var(--stat-showcase-purple);
   color: var(--stat-showcase-light);
