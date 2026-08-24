@@ -89,6 +89,7 @@
       children: [primaryId, secondaryId],
       data: baseData("div", { role: "group", "aria-label": "Key statistics" }, [
         { name: "data-stat-showcase", value: "component" },
+        { name: "data-theme-color", value: "background" },
       ]),
     },
     {
@@ -122,7 +123,9 @@
       tag: "h2",
       classes: [classes.value._id],
       children: [primaryValue._id],
-      data: baseData("h2"),
+      data: baseData("h2", {}, [
+        { name: "data-theme-color", value: "heading" },
+      ]),
     },
     primaryValue,
     {
@@ -131,7 +134,9 @@
       tag: "p",
       classes: [classes.label._id],
       children: [primaryLabel._id],
-      data: baseData("p"),
+      data: baseData("p", {}, [
+        { name: "data-theme-color", value: "text" },
+      ]),
     },
     primaryLabel,
     {
@@ -156,7 +161,9 @@
       tag: "h2",
       classes: [classes.secondaryValue._id],
       children: [secondaryValue._id],
-      data: baseData("h2"),
+      data: baseData("h2", {}, [
+        { name: "data-theme-color", value: "heading" },
+      ]),
     },
     secondaryValue,
     {
@@ -165,7 +172,9 @@
       tag: "p",
       classes: [classes.secondaryLabel._id],
       children: [secondaryLabel._id],
-      data: baseData("p"),
+      data: baseData("p", {}, [
+        { name: "data-theme-color", value: "text" },
+      ]),
     },
     secondaryLabel,
     {
