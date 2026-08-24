@@ -53,7 +53,7 @@
 
 .stat-showcase_value {
   margin: 0;
-  font-size: clamp(4.5rem, 9vw, 7rem);
+  font-size: 40px;
   font-weight: 400;
   line-height: 0.85;
   letter-spacing: -0.055em;
